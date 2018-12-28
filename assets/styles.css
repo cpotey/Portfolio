@@ -616,42 +616,26 @@ width: 1px;
     
 }
 
+@media screen and (max-width:480px) {
+
+    .content-area {
+        padding: 40px 35px;
+    }
+    
+}
 
 
-
-.one .title-container {
+.title-container {
     align-items: center;
 }
 
-.one .header-padding {
+.header-padding {
      padding: 50px 10px; 
 }
 
-/*.one .header-container {
-    background-image: url(./images/woods.jpeg);
-}*/
-.one .header-container:after {
+.header-container:after {
     background-color: rgba(69, 114, 183, 0.8);
 }
-
-
-.two .subheading {
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-    width: 200%;
-}
-.three .subheading {
-    border-radius:0;
-    width:100%;
-}
-
-.three .list {
-padding-left: 0px;
-}
-.three .bullet:after, .three .list:after, .three .list:before {
-    display:none;
-}
-
 
 
 
