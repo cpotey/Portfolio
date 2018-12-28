@@ -51,7 +51,7 @@ h1 {
     font-weight: 600;
 }
 
-h1.title {
+h2.title {
     font-size: 40px;
     letter-spacing: -2px;
     font-weight: 700;
@@ -612,6 +612,10 @@ width: 1px;
 
     .content-area {
         padding:60px;
+    }
+
+    li#portfolio .project-image {
+        background-position-x: left;
     }
     
 }
