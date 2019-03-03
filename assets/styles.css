@@ -91,9 +91,12 @@ a:visited {
 }
 a {
     background-color: transparent;
+    
+    /* transition: .2s ease-in-out; */
+}
+p a, .subheader-title a, .project-details a {
     border-bottom: 1px dotted #4572b7;
     padding-bottom: 2px;
-    /* transition: .2s ease-in-out; */
 }
 a:hover {
     color: #4572b7;
