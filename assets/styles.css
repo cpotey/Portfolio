@@ -582,7 +582,7 @@ width: 1px;
     text-align: right;
 }
 
-body.not-loaded .project-name {
+body.not-loaded .project-name, body.not-loaded .social-links a, body.not-loaded .social-links {
     -webkit-transition: none !important;
     -moz-transition: none !important;
     -ms-transition: none !important;
