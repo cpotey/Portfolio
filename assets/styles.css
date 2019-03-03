@@ -382,7 +382,7 @@ padding: 2.5px 10px;
     height: 200px;
     position: relative;
     width: 100%;
-    transition: .2s ease-in-out;
+    /* transition: .2s ease-in-out; */
 }
 
 .project-image:before {
@@ -427,6 +427,7 @@ padding: 2.5px 10px;
 
 .project:hover .project-name {
     margin-left: 4px;
+    transition: .2s ease-in-out;
     color: #4572b7;
 }
 
