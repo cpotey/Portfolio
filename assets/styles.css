@@ -582,7 +582,12 @@ width: 1px;
     text-align: right;
 }
 
-
+body.not-loaded * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+  }
 
 
 

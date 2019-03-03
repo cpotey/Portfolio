@@ -29,3 +29,8 @@
 //       });
 //     }
 //   });
+
+window.onload = function() {
+    var body = document.getElementById("body");
+    body.classList.remove("not-loaded");
+  };
