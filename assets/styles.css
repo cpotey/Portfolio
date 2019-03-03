@@ -91,8 +91,6 @@ a:visited {
 }
 a {
     background-color: transparent;
-    
-    /* transition: .2s ease-in-out; */
 }
 p a, .subheader-title a, .project-details a {
     border-bottom: 1px dotted #4572b7;
@@ -232,7 +230,7 @@ header {
 .social-links .label {
     border-bottom: 1px solid transparent;
     padding-bottom: 1px;
-    transition: .2s ease-in-out;
+    /* transition: .2s ease-in-out; */
 }
 .social-links a:hover .label {
     border-bottom: 1px solid #fafafa;
